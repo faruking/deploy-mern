@@ -11,7 +11,7 @@ app.use(cors());
 require("./models/quote");
 
 mongoose
-  .connect(`mongodb://127.0.0.1:27017/deploy-mern-db`, {
+  .connect(`mongodb+srv://reactjobs:1234@reactdb.ruxmwvd.mongodb.net/?retryWrites=true&w=majority`, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   })
