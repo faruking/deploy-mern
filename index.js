@@ -11,7 +11,7 @@ app.use(cors());
 //import your models
 require("./models/quote");
 mongoose
-  .connect(process.env.MONGODB_CONNECTION_STRING, {
+  .connect(process.env.REACT_APP_MONGODB_CONNECTION_STRING, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   })
